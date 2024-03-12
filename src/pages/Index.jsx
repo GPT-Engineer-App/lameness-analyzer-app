@@ -57,6 +57,17 @@ const Index = () => {
         </Button>
       </VStack>
 
+      <Flex wrap="wrap" justifyContent="center" p={10} mb={10}>
+        <Box p={5}>
+          <Image src="https://via.placeholder.com/150" alt="Placeholder Image 1" boxSize="150px" m={2} />
+        </Box>
+        <Box p={5}>
+          <Image src="https://via.placeholder.com/150" alt="Placeholder Image 2" boxSize="150px" m={2} />
+        </Box>
+        <Box p={5}>
+          <Image src="https://via.placeholder.com/150" alt="Placeholder Image 3" boxSize="150px" m={2} />
+        </Box>
+      </Flex>
       <Box textAlign="center" p={10}>
         <Heading as="h2" size="lg" mb={5}>
           Trusted by Professionals
